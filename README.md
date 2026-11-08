@@ -1,17 +1,36 @@
-# lab_04
 
-A new Flutter project.
+# Flutter Lab 04 – Pizza Store
 
-## Getting Started
+## Project Description
+A Flutter mobile application demonstrating navigation, named routes and an order summary screen.
 
-This project is a starting point for a Flutter application.
+## Features
+- Pizza Store menu screen.
+- Vegetable Pizza detail screen.
+- Cheese Pizza detail screen.
+- Fries detail screen.
+- Order Summary screen.
+- Navigation between screens.
+- Display of order item, quantity and total price.
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
+- Flutter
+- Dart
+- Visual Studio Code
+- GitHub Actions
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Testing
+The project was tested using Flutter widget tests.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Commands:
+```bash
+flutter pub get
+flutter analyze
+flutter test
+```
+
+## CI Pipeline
+GitHub Actions automatically runs Flutter analysis and widget tests whenever code is pushed or a pull request is created.
+
+## Project Status
+Completed – Flutter Lab 04.
